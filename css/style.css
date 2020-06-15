@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+.container {
+  width: 470px;
+  text-align: justify;
+}
+
+header h1 {
+  text-align: center;
+    
+}
