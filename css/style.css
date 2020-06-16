@@ -91,10 +91,10 @@
 }
 
 .caixa a:visited {
-  color: #ffffff;
+  color: none;
 } 
 
 
 .caixa a:visited:hover {
-  color: #E032E6;
+  color: none;
 }
