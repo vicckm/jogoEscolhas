@@ -73,6 +73,22 @@
   transition: 380ms;
 }
 
+.caixa .btn-1:visited {
+  color: none;
+}
+
+.caixa .btn-2:visited {
+  color: none;
+}
+
+.caixa .btn-1:visited:hover {
+  color: none;
+}
+
+.caixa .btn-2:visited:hover {
+  color: none;
+}
+
 .caixa .btn-2:hover {
   border-color: #E032E6;
   transition: 380ms;
