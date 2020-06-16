@@ -15,3 +15,7 @@ header h1 {
   text-align: center;
     
 }
+
+.btn-1, .btn-2 {
+  display: none;
+}
