@@ -31,7 +31,7 @@ function fimDeJogo(){
 }
 
 function primeiraMalOpcao(){
-	texto.textContent = "Já que é essa a sua decisão, não podemos fazer nada. ";
+	texto.textContent = "Já que é essa a sua decisão, teremos que aceitar. ";
 	fimDeJogo();
 }
 

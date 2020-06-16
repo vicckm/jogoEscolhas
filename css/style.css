@@ -1,21 +1,100 @@
 * {
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
 }
-
-
 
 .container {
-  width: 470px;
-  text-align: justify;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#E032E6,#B332E6,#8632E6,#5932E6,#020314);
 }
 
-header h1 {
+.caixa {
+  width: 800px;
   text-align: center;
-    
 }
 
-.btn-1, .btn-2 {
+.caixa h1 {
+  margin-bottom: 30px;
+  font-size: 56px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.caixa .texto {
+  font-family: 'PT Mono', monospace;
+  font-size: 24px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.caixa .botoes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.caixa .btn {
+  border: 2px solid #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  background: none;
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  outline: none;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.caixa .btn:hover {
+  border-color: #E032E6;
+  transition: 380ms;
+}
+
+.caixa .btn-1, .btn-2 {
+  font-family: 'PT Mono', monospace;
+  width: 300px;
   display: none;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid #ffffff;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.caixa .btn-1:hover {
+  border-color: #E032E6;
+  transition: 380ms;
+}
+
+.caixa .btn-2:hover {
+  border-color: #E032E6;
+  transition: 380ms;
+}
+
+.caixa a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.caixa a:hover {
+  color: #E032E6;
+  transition: 380ms;
+}
+
+.caixa a:visited {
+  color: #ffffff;
+} 
+
+
+.caixa a:visited:hover {
+  color: #E032E6;
 }
